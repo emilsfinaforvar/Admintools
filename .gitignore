@@ -1,2 +1,5 @@
 logs/*
-!logs/listharddrivevolume.ps1.log
+!logs/.listharddrivevolume.ps1.log
+!logs/.systeminfo.ps1.log
+!logs/.services.ps1.log
+!logs/.network.ps1.log
