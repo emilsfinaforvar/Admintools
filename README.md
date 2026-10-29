@@ -1,22 +1,22 @@
 Admintools är ett PowerShell inriktat verktyg utvecklat som en del av kursen adminscripting 
 Du kan använda menyn för att köra olika administrativa och info relaterade skript.
 Admintools innehåller flera moduler som kan köras via menyn.
-##Systeminfo
+## Systeminfo
 Visa grundläggande info om datorn
 Som datornamn operativsystem eller senaste tiden då det startades.
-##Networkinfo
+## Networkinfo
 Visar nätverksinformation som
 IVP4 adress eller Nätverkskort
 Anslutningsinformation
-##Running Services
+## Running Services
 Visar tjänster som kör nuvarande i Windows.
-##Cpuinformation
+## Cpuinformation
 Visar information om processorn
 Modellnamn
 Antal kärnor
 Antal logiska processorer
 Maximal klockfrekvens
-##Projektstruktur
+## Projektstruktur
 
 ```text
 
@@ -56,7 +56,7 @@ adminToolkit/
 ```
 
 ---
-##Loggningsinformation
+## Loggningsinformation
 Programmen använder loggfiler för att spara när programmen används.
 Information som sparas
 Datum och tid
@@ -70,7 +70,7 @@ logs/
 ```
 
 ---
-##Hur man kör skripten.
+## Hur man kör skripten.
 Öppna powershell eller visual studio code.
 Navigera till projekt-mappen 
 powershell 
@@ -83,12 +83,12 @@ powershell
 .\menu.ps1
 
 Välj senare ett alternativ ur listan.
-##Tekniker som används
+## Tekniker som används
 Projektet använder bland annat 
 Powershell 
 Get-Ciminstance
 Get-Service
 Get-NetIPAdress
 
-##Författare.
+## Författare.
 Utvecklat som ett kursprojekt i adminscripting.
