@@ -1,7 +1,7 @@
 Admintools är ett PowerShell inriktat verktyg utvecklat som en del av kursen adminscripting 
 Du kan använda menyn för att köra olika administrativa och info relaterade skript.
 Admintools innehåller flera moduler som kan köras via menyn.
-(Images/block.png)
+![Project banner](Images/block.png)
 ## Systeminfo
 Visa grundläggande info om datorn
 Som datornamn operativsystem eller senaste tiden då det startades.
